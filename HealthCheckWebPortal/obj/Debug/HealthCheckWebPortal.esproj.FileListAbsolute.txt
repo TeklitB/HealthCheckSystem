@@ -1,0 +1,2 @@
+C:\Projects\HealthCheckSystem\HealthCheckWebPortal\obj\Debug\HealthCheckWebPortal.esproj.SuggestedBindingRedirects.cache
+C:\Projects\HealthCheckSystem\HealthCheckWebPortal\obj\Debug\HealthCheckWebPortal.esproj.CoreCompileInputs.cache
