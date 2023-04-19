@@ -6,6 +6,8 @@
 /out-tsc
 /bazel-out
 /HealthCheckWebPortal/obj
+/HealthCheckWebAPI/obj
+/HealthCheckWebAPI/bin
 
 # Node
 /HealthCheckWebPortal/node_modules
