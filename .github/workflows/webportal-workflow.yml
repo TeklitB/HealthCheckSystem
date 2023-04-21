@@ -2,8 +2,7 @@ name: Web Portal Pipeline
 
 on:
   push:
-    paths:
-    - 'HealthCheckWebPortal/**'
+    paths: ['HealthCheckWebPortal/**', '.github/workflow/webportal-workflow.yml']
 
 jobs:
   deploy:
