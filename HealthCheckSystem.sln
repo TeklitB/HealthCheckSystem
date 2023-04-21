@@ -5,7 +5,15 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "HealthCheckWebPortal", "HealthCheckWebPortal\HealthCheckWebPortal.esproj", "{F2F9AEEE-6C7E-4FE8-84DD-F341817926CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheckWebAPI", "HealthCheckWebAPI\HealthCheckWebAPI.csproj", "{A30B0FDA-9FF2-494D-8936-4F9D8B3EC7BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthCheckWebAPI", "HealthCheckWebAPI\HealthCheckWebAPI.csproj", "{A30B0FDA-9FF2-494D-8936-4F9D8B3EC7BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{5119F784-AF04-4AC9-AA19-139A29B749A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{A0747CB0-343C-4D35-AC39-7857A585E23B}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\webapi-workflow.yml = .github\workflows\webapi-workflow.yml
+		.github\workflows\webportal-workflow.yml = .github\workflows\webportal-workflow.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +34,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0747CB0-343C-4D35-AC39-7857A585E23B} = {5119F784-AF04-4AC9-AA19-139A29B749A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68894B26-94E9-41CD-9DF6-FEDB7CB55CF5}
