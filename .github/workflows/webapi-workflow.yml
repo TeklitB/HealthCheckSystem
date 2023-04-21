@@ -2,7 +2,7 @@ name: Web Api Pipeline
 
 on:
     push:
-        paths: ['HealthCheckWebAPI/**', '.github/workflow/webapi-workflow.yml']
+        branches: [master]
 
 jobs:
     build:
