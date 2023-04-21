@@ -2,8 +2,8 @@ name: Web Portal Pipeline
 
 on:
   push:
-    branches:
-    - master
+    paths:
+    - HealthCheckWebPortal/**
 
 jobs:
   deploy:

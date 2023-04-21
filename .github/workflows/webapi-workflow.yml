@@ -2,8 +2,8 @@ name: Web Api Pipeline
 
 on:
     push:
-        branches:
-            - master
+        paths:
+            - HealthCheckWebAPI/**
 
 jobs:
     build:
