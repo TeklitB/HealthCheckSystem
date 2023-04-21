@@ -1,4 +1,4 @@
-name: CICD Pipeline
+name: Web Api Pipeline
 
 on:
     push:
@@ -12,10 +12,10 @@ jobs:
             - name: Check out code
               uses: actions/checkout@v3
 
-            - name: Setup .NET 7
+            - name: Setup .NET 6
               uses: actions/setup-dotnet@v3
               with:
-                dotnet-version: '7.0.x'
+                dotnet-version: '6.0.x'
             - name: Restore dependencies
               run: dotnet restore
 
