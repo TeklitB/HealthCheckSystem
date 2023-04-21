@@ -3,7 +3,7 @@ name: Web Api Pipeline
 on:
     push:
         paths:
-            - HealthCheckWebAPI/**
+            - 'HealthCheckWebAPI/**'
 
 jobs:
     build:

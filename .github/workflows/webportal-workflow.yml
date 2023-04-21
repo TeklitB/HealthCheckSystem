@@ -3,7 +3,7 @@ name: Web Portal Pipeline
 on:
   push:
     paths:
-    - HealthCheckWebPortal/**
+    - 'HealthCheckWebPortal/**'
 
 jobs:
   deploy:
