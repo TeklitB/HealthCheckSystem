@@ -10,6 +10,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{5119F784-AF04-4AC9-AA19-139A29B749A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{A0747CB0-343C-4D35-AC39-7857A585E23B}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\webapi-workflow.yml = .github\workflows\webapi-workflow.yml
+		.github\workflows\webportal-workflow.yml = .github\workflows\webportal-workflow.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
